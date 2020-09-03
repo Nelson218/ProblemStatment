@@ -23,8 +23,8 @@
 		1EFA9F9C24FCB1DB0064502C /* ProbStatmentLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EFA9F9A24FCB1DB0064502C /* ProbStatmentLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EFA9F9F24FCB1DB0064502C /* ProbStatmentLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFA9F9824FCB1DB0064502C /* ProbStatmentLib.framework */; };
 		1EFA9FA024FCB1DB0064502C /* ProbStatmentLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFA9F9824FCB1DB0064502C /* ProbStatmentLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1EFA9FC024FCB20E0064502C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA9FAB24FCB20D0064502C /* Movie.swift */; };
-		1EFA9FC124FCB20E0064502C /* Movie+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA9FAC24FCB20D0064502C /* Movie+Service.swift */; };
+		1EFA9FC024FCB20E0064502C /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA9FAB24FCB20D0064502C /* Country.swift */; };
+		1EFA9FC124FCB20E0064502C /* Country+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA9FAC24FCB20D0064502C /* Country+Service.swift */; };
 		1EFA9FCA24FCB20E0064502C /* ErrorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA9FB624FCB20D0064502C /* ErrorConfig.swift */; };
 		1EFA9FCB24FCB20E0064502C /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA9FB724FCB20D0064502C /* AppConfiguration.swift */; };
 		1EFA9FCC24FCB20E0064502C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA9FB924FCB20D0064502C /* Service.swift */; };
@@ -75,8 +75,8 @@
 		1EFA9F9824FCB1DB0064502C /* ProbStatmentLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProbStatmentLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EFA9F9A24FCB1DB0064502C /* ProbStatmentLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProbStatmentLib.h; sourceTree = "<group>"; };
 		1EFA9F9B24FCB1DB0064502C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1EFA9FAB24FCB20D0064502C /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
-		1EFA9FAC24FCB20D0064502C /* Movie+Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Movie+Service.swift"; sourceTree = "<group>"; };
+		1EFA9FAB24FCB20D0064502C /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		1EFA9FAC24FCB20D0064502C /* Country+Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Country+Service.swift"; sourceTree = "<group>"; };
 		1EFA9FB624FCB20D0064502C /* ErrorConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorConfig.swift; sourceTree = "<group>"; };
 		1EFA9FB724FCB20D0064502C /* AppConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
 		1EFA9FB924FCB20D0064502C /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
@@ -182,8 +182,8 @@
 		1EFA9FA924FCB20D0064502C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1EFA9FAB24FCB20D0064502C /* Movie.swift */,
-				1EFA9FAC24FCB20D0064502C /* Movie+Service.swift */,
+				1EFA9FAB24FCB20D0064502C /* Country.swift */,
+				1EFA9FAC24FCB20D0064502C /* Country+Service.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -325,7 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EFA9FC124FCB20E0064502C /* Movie+Service.swift in Sources */,
+				1EFA9FC124FCB20E0064502C /* Country+Service.swift in Sources */,
 				1EFA9FCD24FCB20E0064502C /* HTTPStatusCode.swift in Sources */,
 				1EFA9FCA24FCB20E0064502C /* ErrorConfig.swift in Sources */,
 				1E413AF324FD1B280069D67C /* ResourceOperation.swift in Sources */,
@@ -335,7 +335,7 @@
 				1EFA9FCE24FCB20E0064502C /* Resource.swift in Sources */,
 				1E413AF424FD1B280069D67C /* BaseOperation.swift in Sources */,
 				1EFA9FCC24FCB20E0064502C /* Service.swift in Sources */,
-				1EFA9FC024FCB20E0064502C /* Movie.swift in Sources */,
+				1EFA9FC024FCB20E0064502C /* Country.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

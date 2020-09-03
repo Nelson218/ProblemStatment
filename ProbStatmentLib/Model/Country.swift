@@ -2,10 +2,6 @@
 
 import Foundation
 
-public struct Countries: Decodable {
-    public let results: [Country]
-}
-
 public struct Country: Decodable {
     public let name: String
     public let capital: String
